@@ -1,0 +1,20 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build & TypeScript outputs
+dist/
+*.tsbuildinfo
+
+# Scraped raw vendor data & staged files (contains un-scrubbed upstream vendor info in data/raw/)
+data/
+
+# Logs & OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
