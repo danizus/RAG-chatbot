@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
     "scrape": "tsx src/scrape.ts",
     "reconcile": "tsx src/reconcile.ts",
     "ingest": "tsx src/ingest.ts",
